@@ -23,6 +23,22 @@ const coinParams = {
   platformReferrer: "0xOptionalPlatformReferrerAddress" as Address, // Optional
   initialPurchaseWei: 0n, // Optional: Initial amount to purchase in Wei
 };
+
+// draft of custom params
+const customParams = {
+      "name": "momma is shantells just untill",
+      "symbol": "MOMMA",
+      "description": "help us save shantells just until, a soul food restaurant run by momma shantell williams in sanford, florida. it has received over 100k fiat of ridiculous fines & is in foreclosure. 100% of transactions fees are going to those debts.",
+      "image": "ipfs://bafybeiafm63yh7myx34kv7u7qwo7ss5rpkku77v5r3vb7feyaji7hdx4u4",
+      "animation_url": "ipfs://bafybeieut6xhgvkhlaxogjhbcffnza754nohgobzmljv3ly7idba6rmkqm",
+      "content": {
+        "mime": "video/mp4",
+        "uri": "ipfs://bafybeieut6xhgvkhlaxogjhbcffnza754nohgobzmljv3ly7idba6rmkqm"
+      },
+      "properties": {
+        "category": "social"
+      }
+};
  
 // Create the coin
 async function createMyCoin() {
